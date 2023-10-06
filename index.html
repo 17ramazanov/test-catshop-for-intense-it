@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>catshop</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="shortcut icon" href="/assests/cat-paw-logo.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat%3A400%2C700"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400%2C700"/>
+</head>
+<body>
+    
+    <header class="menu-container">
+        <div class="main-menu" id="main-menu">
+            <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+            <img class="logo-main" src="/assests/cat-shop-logo.png"/>
+            <ul>
+                <li><a href="#" class="main-button">Main</a></li>
+                <li><a href="#" class="gallery-button">Gallery</a></li>
+                <li><a href="#" class="news-button">News</a></li>
+                <li><a href="#" class="profile-button">Profile</a></li>
+            </ul>
+
+            <div class="phone-number">
+                <p class="number">+544 3490 00000</p>
+                <p>Звони скорее!</p>
+            </div>
+
+            <div class="found-cats">
+                <p>Найдено 349 котов</p>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="sorting-container">
+        <span class="to-sort">Сортировать по:</span>
+        <span class="sort-button" data-sort="price">Цене <img src="/assests/right-arrow-1.png" alt="Стрелка вверх"></span>
+        <span class="sort-button" data-sort="age">Возрасту <img src="/assests/right-arrow-1.png" alt="Стрелка вверх"></span>
+    </div>
+    
+    <div class="content-container">
+        
+        <div class="block cat-1">
+            <img src="/assests/cat-1.png" alt="cat-1">
+            <div class="discount-label">-40%</div>
+            <div class="content">
+                <h1>Кот полосатый</h1>
+                <span class="info-about-cat">
+                    <div class="line"></div>
+                    <h4>Коричневый <br> окрас</h4>
+                    <span class="age">
+                    <h4 class="bold">2 мес.</h4>
+                    <h4>возраст</h4>
+                </span>
+                <span class="paws">
+                    <h4 class="bold">4</h4>
+                    <h4>Кол-во лап</h4>
+                </span>
+            </span>
+            <h1 class="price">30 000 руб.</h1>
+            <div class="like-icon">&#10084;</div>
+            <button class="buy-btn">Купить</button>
+        </div>
+    </div>
+
+        <div class="block cat-2">
+            <img src="/assests/cat-2.png" alt="cat-2">
+            <div class="content">
+                <h1>Кот зеленоглазый</h1>
+                <span class="info-about-cat">
+                    <div class="line"></div>
+                    <h4>Тигровый <br> окрас</h4>
+                    <span class="age">
+                    <h4 class="bold">3 мес.</h4>
+                    <h4>возраст</h4>
+                </span>
+                <span class="paws">
+                    <h4 class="bold">4</h4>
+                    <h4>Кол-во лап</h4>
+                </span>
+            </span>
+            <h1 class="price">40 000 руб.</h1>
+            <div class="like-icon">&#10084;</div>
+            <button class="bought-btn">Продан</button>
+        </div>
+    </div>
+
+        <div class="block cat-3">
+            <img src="/assests/cat-3.png" alt="cat-3">
+            <div class="content">
+                <h1>Кот пушистый</h1>
+                <span class="info-about-cat">
+                    <div class="line"></div>
+                    <h4>Тигровый <br> окрас</h4>
+                    <span class="age">
+                    <h4 class="bold">4 мес.</h4>
+                    <h4>возраст</h4>
+                </span>
+                <span class="paws">
+                    <h4 class="bold">4</h4>
+                    <h4>Кол-во лап</h4>
+                </span>
+            </span>
+            <h1 class="price">20 000 руб.</h1>
+            <div class="like-icon">&#10084;</div>
+            <button class="buy-btn">Купить</button>
+        </div>
+    </div>
+
+        <div class="block cat-4">
+            <img src="/assests/cat-4.png" alt="cat-4">
+            <div class="content">
+                <h1>Кот рыжий</h1>
+                <span class="info-about-cat">
+                    <div class="line"></div>
+                    <h4>Рыжий <br> окрас</h4>
+                    <span class="age">
+                    <h4 class="bold">2 мес.</h4>
+                    <h4>возраст</h4>
+                </span>
+                <span class="paws">
+                    <h4 class="bold">4</h4>
+                    <h4>Кол-во лап</h4>
+                </span>
+            </span>
+            <h1 class="price">25 000 руб.</h1>
+            <div class="like-icon">&#10084;</div>
+            <button class="buy-btn">Купить</button>
+        </div>
+    </div>
+
+        <div class="block cat-5">
+            <img src="/assests/cat-5.png" alt="cat-5">
+            <div class="discount-label">-40%</div>
+            <div class="content">
+                <h1>Кошка тигровая</h1>
+                <span class="info-about-cat">
+                    <div class="line"></div>
+                    <h4>Тигровый <br> окрас</h4>
+                    <span class="age">
+                    <h4 class="bold">6 мес.</h4>
+                    <h4>возраст</h4>
+                </span>
+                <span class="paws">
+                    <h4 class="bold">4</h4>
+                    <h4>Кол-во лап</h4>
+                </span>
+            </span>
+            <h1 class="price">30 000 руб.</h1>
+            <div class="like-icon">&#10084;</div>
+            <button class="buy-btn">Купить</button>
+        </div>
+    </div>
+
+        <div class="block cat-6">
+            <img src="/assests/cat-6.png" alt="cat-6">
+            <div class="content">
+                <h1>Кот трехцветный</h1>
+                <span class="info-about-cat">
+                    <div class="line"></div>
+                    <h4>Трехцветный окрас</h4>
+                    <span class="age">
+                    <h4 class="bold">5 мес.</h4>
+                    <h4>возраст</h4>
+                </span>
+                <span class="paws">
+                    <h4 class="bold">4</h4>
+                    <h4>Кол-во лап</h4>
+                </span>
+            </span>
+            <h1 class="price">10 000 руб.</h1>
+            <div class="like-icon">&#10084;</div>
+            <button class="bought-btn">Продан</button>
+        </div>
+    </div>
+
+</div>
+
+
+
+    <div>
+        <button class="show-btn">Показать еще 20</button>
+    </div>
+
+    <div>
+        <button class="up-btn"><img src="/assests/up-btn.png" alt=""></button>
+    </div>
+
+
+
+<footer class="footer-container">
+
+    <div class="manage-to-buy">
+        <p class="manage">Успей купить!</p>
+        <br>
+        <p>Подпишись и успей <br> словить все акции</p>
+    </div>
+
+    <div class="subsribe">
+        <label for="email">
+            <input type="email" name="email" placeholder="Email" required>
+            <button class="subscribe-btn">Подписаться</button>
+            <br><br><br><br>
+        </label>
+            
+        <label for="subsribe">
+            <input type="checkbox" name="subsribe" value="subscribed">
+            <span>Подписаться на новости</span>
+        </label>
+    </div>
+
+</footer>
+
+<script src="/main.js"></script>
+
+</body>
+</html>
